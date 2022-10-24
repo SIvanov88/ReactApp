@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "date":"September 2020 - July 2021", 
+        "qualification":"Mobile and web technologies", 
+        "training":"University of Economics Varna",
+        "location":"Varna' level='Masters degree",
+        "level": "Masters degree"
+        },
+        {
+            "id": "2",
+            "date":"September 2007 - August 2014",
+            "qualification":"Automation, information and exercise equipment",
+            "training":"Technical University Varna",
+            "location":"Varna' level='Bachelors degree",
+            "level":"Bachelors degree"
+        }
+    ]

@@ -1,0 +1,5 @@
+[
+    { "id":"1", "title": "Work Experience", "date": "May 2022 - September 2022" , "position":"Webmaster", "employer":"Perfomalis", "location":"Varna" , "sector": "Information technologies"},
+    { "id":"2", "title": "Work Experience", "date":"August 2019 - August 2020", "position": "flexible employee", "employer":"OTTO Work Force", "location":"Hertogenbosch Netherlands", "sector": "Manufacturing"},
+    { "id":"3", "title": "Work Experience", "date":"August 2018 - August 2019", "position": "machine operator", "employer": "Elmaus Co", "location": "Varna" , "sector": "Manufacturing"}
+]

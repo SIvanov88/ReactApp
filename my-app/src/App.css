@@ -1,0 +1,472 @@
+.App {
+  text-align: center;
+  background-color: rgb(201, 189, 236);
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer{
+  background-color: #282c34;
+  color: white;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.color{
+  color: greenyellow;
+}
+
+.card{
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.card > button{
+  background: green;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.btn{
+  background: green;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-bottom: 15px;
+}
+
+.earch-area {
+  display: inline-block;
+}
+
+.btn-search{
+  margin-left: 15px;
+  background: green;
+}
+
+.textCss{
+  color: rgb(113, 175, 65);
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textCss2{
+  color: rgb(190, 98, 41);
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.position{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.position h1{
+  margin-right: 5px;
+}
+
+.h-button{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 3px;
+  margin-bottom: 5px;
+  width: 100px;
+}
+
+.inputStype{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+/* my css */
+
+.ullist{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.ullist li a{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: rgb(140, 116, 116);
+}
+
+
+
+
+.addNew{
+  margin-top: 100px;
+}
+
+.printTask{
+  margin-top: 50px;
+}
+
+
+
+.counterStyle{
+  border-radius: 10px;
+  padding: 40px;
+  overflow: hidden;
+  margin:auto 0;
+  box-shadow: 1px 10px 13px grey;
+  background-color: white;
+}
+
+.bgPurple{
+  border-radius: 10px;
+  padding: 40px;
+  overflow: hidden;
+  margin:auto 0;
+  box-shadow: 1px 10px 13px rgb(250, 190, 79);
+  background-color: rgb(211, 74, 211);
+  transition: 2s;
+}
+
+.bgOrange{
+  border-radius: 10px;
+  padding: 40px;
+  overflow: hidden;
+  margin:auto 0;
+  box-shadow: 1px 10px 13px rgb(211, 74, 211);
+  background-color: rgb(250, 190, 79);
+  transition: 2s;
+}
+
+
+
+.increment{
+  background: rgb(33, 206, 33);
+  padding: 4px;
+  border: 0px;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.decrement{
+  background: rgb(210, 39, 39);
+  padding: 4px;
+  border-radius: 5px;
+  border:  0px;
+  width: 50px;
+  margin: 0 5px;
+}
+
+.reset{
+  background: rgb(220, 234, 31);
+  padding: 4px;
+  border: 0px;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.stop{
+  background: rgb(101, 94, 94);
+  padding: 4px;
+  border: 0px;
+  border-radius: 5px;
+  width: 50px;
+  margin: 0 5px;
+}
+
+
+
+.numGreen{
+  color: green;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transform: scale(1.5);
+  transition: 2s;
+  animation: slideRight .4s ease-in;
+}
+
+.numRed{
+  color: red;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transform: scale(1.5);
+  transition: s;
+  animation: slideLeft .4s ease-in;
+}
+
+@keyframes slideLeft{
+  0%{
+    transform: skewX(50deg) translateX(80px);
+  }
+  100%{
+    transform: skewX(0deg);
+  }
+}
+
+
+
+@keyframes slideRight{
+  0%{
+    transform: skewX(0deg) translateX(-80px);
+  }
+  100%{
+    transform: skewX(-50deg);
+  }
+}
+
+
+
+.personal-info{
+ display: flex;
+ justify-content: flex-start;
+ align-items: flex-start;
+ flex-direction: column;
+ float: left;
+ padding: 20px;
+}
+
+.experience{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  float: left;
+  padding: 20px;
+  animation: slideLeft .4s ease-in;
+}
+
+.education{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  animation: slideLeft .4s ease-in;
+}
+
+.courses li{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.textRed{
+  color: red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textGreen{
+  color: green;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-new{
+  margin-bottom: 20px;
+}
+
+
+
+.taskInput{
+  display: flex;
+  flex-direction: row;
+}
+
+.addTask{
+  background-color: rgb(159, 159, 216);
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  width: 500px;
+  height: 50px;
+  margin-top: 100px;
+  border: 0px;
+}
+
+.addNew{
+  padding: 5px;
+  background-color: greenyellow;
+  border: 0px;
+  border-radius: 5px;
+  height: 50px;
+  width: 70px;
+}
+
+.taskBody{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 300px;
+}
+
+.taskBody p{
+  margin-right: 15px;
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+  margin-top: 10px;
+}
+
+.taskBody button{
+  background: rgb(196, 50, 50);
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+}
+
+.tasksContent p{
+  position: relative;
+  padding: 20px;
+  max-width: 415px;
+  max-height: 50px;
+  text-align: left;
+}
+
+.tasksContent button{
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 15px;
+  padding: 5px ;
+  text-align: center;
+}
+
+.pulse{
+  animation: pulseEffect 1s ease-out;
+  color: blue;
+  transition: 1s;
+}
+
+
+@keyframes pulseEffect{
+  100%{
+    transform: scale(1);
+    color: green;
+  }
+  50%{
+    transform: scale(.9);
+    color: rgb(191, 31, 191);
+  }
+  0%{
+    transform: scale(.8);
+    color: rgb(216, 40, 40);
+  }
+}
+
+.email{
+  animation: pulseEamil 0.5s ease-out;
+  color: rgb(25, 88, 98);
+  transition: 1s;
+}
+
+@keyframes pulseEamil{
+  0%{
+    transform: scale(1);
+    color: green;
+  }
+  50%{
+    transform: scale(.9);
+    color: rgb(191, 31, 191);
+  }
+  100%{
+    transform: scale(.8);
+    color: rgb(216, 40, 40);
+  }
+}
+
+.boxItems{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.showItems{
+  flex: 1 1 160px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.showItems img{
+  width: 200px;
+  height: 200px;
+  border-radius: 70px;
+}
+
+.showItems img:hover{
+  opacity: .4;
+  color: rgb(159, 159, 216);
+  transition: 2s;
+  transform: scale(1.1);
+}
+
+.information{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.information img{
+  width: 600px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.details h3{
+  text-align: left;
+}
+
+.details p{
+  width: 600px;
+  text-align: left;
+}
+
+.details strong{
+  text-align: left;
+}
